@@ -4,7 +4,7 @@
     <section class="container mt-5">
         <h1 class="mb-3">{{ $title }}</h1>
 
-        <div class="row row-cols-2">
+        <div class="row row-cols-2 g-3">
             @forelse($trains as $train)
                 <div class="col">
                     <div class="card">
